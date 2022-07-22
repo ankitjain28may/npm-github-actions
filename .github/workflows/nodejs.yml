@@ -27,3 +27,4 @@ jobs:
         NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
     - name: Showing Tree
       run: tree -L 4
+      
